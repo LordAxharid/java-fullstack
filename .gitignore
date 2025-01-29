@@ -1,0 +1,36 @@
+# Node.js y Angular
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+
+# Build y Caché
+/dist/
+.out-tsc/
+.bazel-out/
+.angular/cache/
+.angular/
+coverage/
+
+# Configuración de editores
+.vscode/
+.idea/
+*.code-workspace
+.history/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Variables de entorno y configuraciones sensibles
+.env
+config/*.env
+.env.local
+.env.production
+
+# Java / Spring Boot
+target/
+*.log
+*.class
